@@ -246,6 +246,15 @@ position: relative;
     width: calc((100% - 3*24px)/4);
 }
 
+.benefits-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+}
 
 
 .section-team {
@@ -261,12 +270,49 @@ position: relative;
 border-radius: 0 0 4px 4px;
 background-color: #fff;
 width: calc((100% - 24px)/4);
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background-color: #fff;
 }
+
 .team-card-content {
     /*margin: 32px 16px;*/
     text-align: center;
     /*padding-bottom: 3px;*/
-    padding: 32px 0;
+    padding: 32px 16px;
+}
+
+.text-team {
+    margin-bottom: 8px;
+}
+
+.team-social-links {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+
+}
+.team-social-item {
+    width: 40px;
+    height: 40px;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+}
+
+.team-link:hover,
+.team-link:focus {
+    background-color: #404bbf;
+}
+
+.icon {
+    fill: #f4f4fd;
+
 }
 
 .portfolio-card-set {
@@ -285,6 +331,8 @@ width: calc((100% - 24px)/4);
         border-right: 1px solid #e7e9fc;
         padding: 32px 16px;
 }
+
+
 
 .page-footer {
     background-color: #2e2f42;
@@ -327,21 +375,10 @@ gap: 16px;
    
 }
 
-.footer-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-}
+
+
 .footer-link:hover,
 .footer-link:focus {
 background-color: #31d0aa;
 }
 
-.icon {
-    fill: #f4f4fd;
-    
-}
